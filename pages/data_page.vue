@@ -24,7 +24,7 @@
         <div class="content">
             <div class="mt-4" v-if="contenido == 'boton1' && boton1_contenido == 0" style="margin: 10%;">
                 <h4>Ingrese la distancia de cada geofono en pulgadas</h4>
-                <b-card img-src="https://picsum.photos/id/182/600/600" img-alt="Card image" img-right class="mb-3">
+                <b-card img-src="/carretera1" img-alt="Card image" img-right class="mb-3">
                     <div class="input-field" v-for="(input, index) in distancia_D" :key="index + 2">
                         <b-form-input type="text" v-model="inputValues[index]" :name="`input_${index + 2}`"
                             :placeholder="`Geofono ${index + 2}`"></b-form-input><br>
